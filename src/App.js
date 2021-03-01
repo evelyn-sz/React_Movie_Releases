@@ -1,10 +1,14 @@
 import './App.css';
-import React from 'react';
+import React, {Fragment} from 'react';
 import MovieBox from './containers/MovieBox';
+import StyledMovieBox from './containers/StyledMovieBox';
 
 function App() {
   return (
-    <MovieBox/>
+    <div className="App">
+      <MovieBox/>
+      <StyledMovieBox/>
+    </div>
   );
 }
 

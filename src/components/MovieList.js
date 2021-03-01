@@ -8,9 +8,9 @@ const MovieList = ({movies}) => {
   })
 
   return(
-    <>
+    <ul>
       {movieNodes}
-    </>
+    </ul>
   )
 }
 

@@ -3,7 +3,7 @@ import React from 'react';
 const Movie = ({name}) => {
   return(
     <>
-      <h3>{name}</h3>
+      <h3><li>{name}</li></h3>
     </>
   )
 }

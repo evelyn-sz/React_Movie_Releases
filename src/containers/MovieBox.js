@@ -2,6 +2,8 @@ import React, {useState} from 'react';
 import MovieList from '../components/MovieList';
 // import Upcoming from '../components/Upcoming';
 import BeautifulButton from '../components/BeautifulButton';
+import styled from 'styled-components';
+import StyledMovieBox from './StyledMovieBox';
 
 
 const MovieBox = () => {
@@ -34,10 +36,12 @@ const MovieBox = () => {
       }
     ]
     )
+
     return(
       <>
-        <h1>MovieBox</h1>
+        <StyledMovieBox><h1>Upcoming Film Releases for UK</h1>
         <MovieList id="movieList" movies={movies}/>
+        </StyledMovieBox>
         <BeautifulButton></BeautifulButton>
       </>
     )
